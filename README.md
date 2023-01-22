@@ -1,6 +1,6 @@
 # Kali NetHunter (Rootless Edition) - Kali Linux CLI and KeX using Termux
 
-[Kali NetHunter](https://www.kali.org/get-kali/#kali-mobile)) is a Mobile Penetration Testing Platform, and the [rootless edition](https://www.kali.org/docs/nethunter/nethunter-rootless/) allows for maximum flexibility with no commitment.
+[Kali NetHunter](https://www.kali.org/get-kali/#kali-mobile)) is a Mobile Penetration Testing Platform, and it allows for maximum flexibility with no commitment.
 
 _For use on **unmodified stock Android phones without voiding the warranty**!_
 
