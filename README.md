@@ -4,9 +4,10 @@
 
 _For use on **unmodified stock Android phones without voiding the warranty**!_
 
-[![Termux Menu](../images/010-NH-Rootless-Installation_Start_s.jpg)](../images/010-NH-Rootless-Installation_Start.jpg)
 
-[![KeX](../images/020-NH-Rootless-KeX_s.jpg)](../images/020-NH-Rootless-KeX.jpg)
+
+
+
 
 ## Prerequisite:
 
