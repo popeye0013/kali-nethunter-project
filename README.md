@@ -58,5 +58,3 @@ To use KeX, start the KeX client, enter your password and click connect.
 
 _Note: For a better viewing experience, enter a custom resolution under "Advanced Settings" in the KeX Client_
 
-
-Sun May 29 22:51:35 UTC 2022
