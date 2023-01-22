@@ -21,7 +21,7 @@ _For use on **unmodified stock Android phones without voiding the warranty**!_
   _Note: The button "install" may not change to "installed" in the store client after installation - just ignore it. Starting termux for the first time may seem stuck while displaying "installing" on some devices - just hit enter._
 - Open **Termux** and type:
 
-<!-- https://offs.ec/2MceZWr -> https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-project/raw/master/nethunter-rootless/install-nethunter-termux -->
+<!-- https://offs.ec/2MceZWr -> https://raw.githubusercontent.com/popeye0013/kali-nethunter-project/main/install-nethunter-termux -->
 
 ```bash
 termux-setup-storage
