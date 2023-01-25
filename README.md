@@ -23,7 +23,9 @@ _For use on **unmodified stock Android phones without voiding the warranty**!_
 
 <!-- https://offs.ec/2MceZWr -> https://raw.githubusercontent.com/popeye0013/kali-nethunter-project/main/install-nethunter-termux -->
 
-```bash
+## Setting Up Our Environment:
+
+```
 pkg update && pkg update -y
 termux-setup-storage
 pkg install wget fish
