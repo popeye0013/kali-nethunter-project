@@ -25,14 +25,49 @@ _For use on **unmodified stock Android phones without voiding the warranty**!_
 
 ## Setting Up Our Environment:
 
+Next up, we would need some packages which we would need during the installation process.
+
+First, update and upgrade the system with :
 ```
 pkg update && pkg update -y
+```
+
+Next up we need to setup our system so that we can access the files created by Termux outside of our Termux session as well. This can be done with :
+```
 termux-setup-storage
+```
+
+Once you have granted the required Permissions, finally install the required packages with :
+```
 pkg install wget fish
+```
+
+Once done, we can proceed to the actual installation step.
+Next we need to fetch and execute a script which will install Kali Linux for us. To fetch the script, type:
+```
 wget https://raw.githubusercontent.com/popeye0013/kali-nethunter-project/main/install-nethunter-termux
+```
+
+Now, we need to make the script executable and run it with:
+```
 chmod +x install-nethunter-termux
 ./install-nethunter-termux
 ```
+This will fetch Kali Linux files and install them for us on our Android device. The script would fetch around 1.5GB of files so naturally, it might take a lot of time depending upon your network speed. Once the script is done extracting the rootfs file, you can even delete it.
+
+Once the script has finished, you can run Kali Nethunter from the CLI.
+
+To launch Kali Linux in CLI mode, type:
+```
+nethunter
+```
+
+This would drop into a shell on Kali Linux. You can now use Kali Tools or check your OS with
+```
+$ cat /etc/os-release | grep "\bNAME="
+NAME="Kali GNU/Linux"
+```
+
 
 ## Usage:
 
@@ -62,3 +97,9 @@ To use KeX, start the KeX client, enter your password and click connect.
 
 _Note: For a better viewing experience, enter a custom resolution under "Advanced Settings" in the KeX Client_
 
+## Conclusion
+
+Note that on non-rooted you cannot use some tools which require root permissions . However, this still remains utilitarian when performing memory intensive operations like Password cracking and bruteforcing. Most mobile devices nowadays come with a lot of RAM and brilliant processors which can help to crack password hashes or bruteforce our way into systems all the while retaining the functionalities of a normal Android Device.
+
+
+## Warning
