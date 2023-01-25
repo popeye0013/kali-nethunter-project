@@ -1,6 +1,6 @@
-![alt text](https://github.com/popeye0013/kali-nethunter-project/blob/main/nethunter.png)
+<-- ![alt text](https://github.com/popeye0013/kali-nethunter-project/blob/main/nethunter.png) -->
 
-## About:
+## Kali-Nethunter [non-root]:
 
 [Kali NetHunter](https://www.kali.org/get-kali/#kali-mobile)) is a Mobile Penetration Testing Platform, and it allows for maximum flexibility with no commitment.
 
