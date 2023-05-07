@@ -99,5 +99,6 @@ _Note: For a better viewing experience, enter a custom resolution under "Advance
 
 Note that on non-rooted you cannot use some tools which require root permissions . However, this still remains utilitarian when performing memory intensive operations like Password cracking and bruteforcing. Most mobile devices nowadays come with a lot of RAM and brilliant processors which can help to crack password hashes or bruteforce our way into systems all the while retaining the functionalities of a normal Android Device.
 
+## Support:
 
-## Warning
+<p align="vertical"><a href="https://paypal.me/popeye0013"><img src="https://github.com/aha999/DonateButtons/blob/1371730702589476cbd31790685ded66857a1f08/Paypal.png" width="175"></a></p>
