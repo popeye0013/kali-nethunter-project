@@ -49,6 +49,8 @@ wget https://raw.githubusercontent.com/popeye0013/kali-nethunter-project/main/in
 Now, we need to make the script executable and run it with:
 ```
 chmod +x install-nethunter-termux
+```
+```
 ./install-nethunter-termux
 ```
 This will fetch Kali Linux files and install them for us on our Android device. The script would fetch around 1.5GB of files so naturally, it might take a lot of time depending upon your network speed. Once the script is done extracting the rootfs file, you can even delete it.
