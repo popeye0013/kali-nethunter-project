@@ -92,7 +92,7 @@ function set_strings() {
         wimg="full" 
     fi
 
-    CHROOT="kali-${SYS_ARCH}"
+    CHROOT="nethunter-${SYS_ARCH}"
 IMAGE_NAME="kali-nethunter-rootfs-${wimg}-${SYS_ARCH}.tar.xz"
 SHA_NAME="kali-nethunter-rootfs-${wimg}-${SYS_ARCH}.tar.xz.sha512sum"
 }
@@ -104,7 +104,6 @@ function prepare_fs() {
         else
             KEEP_CHROOT=1
         fi
-    fi
 }
 
 function cleanup() {
